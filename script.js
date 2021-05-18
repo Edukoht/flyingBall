@@ -1,0 +1,1 @@
+let canv = document.querySelector("canvas");
