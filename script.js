@@ -12,4 +12,5 @@ setInterval(function(){
     c.fillRect(0,0, canv.width, canv.height);
     c.fillStyle = "red";
     c.fill();
+    c.beginPath();
 },10)
