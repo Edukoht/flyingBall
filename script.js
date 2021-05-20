@@ -11,4 +11,5 @@ setInterval(function(){
     c.fillStyle = "rgba(0,0,0,0.04)";
     c.fillRect(0,0, canv.width, canv.height);
     c.fillStyle = "red";
+    c.fill();
 },10)
