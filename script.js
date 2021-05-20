@@ -21,4 +21,5 @@ setInterval(function(){
     if(circleY+circleRadius > canv.height || circleY-circleRadius < 0){
         speedY = -speedY
     }
+    circleX = circleX + speedX
 },10)
