@@ -7,3 +7,6 @@ let circleY = 75;
 let speedX = 15;
 let speedY = 10;
 let circleRadius = 50;
+setInterval(function(){
+
+},10)
