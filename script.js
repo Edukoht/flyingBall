@@ -8,5 +8,5 @@ let speedX = 15;
 let speedY = 10;
 let circleRadius = 50;
 setInterval(function(){
-
+    c.fillStyle = "rgba(0,0,0,0.04)";
 },10)
