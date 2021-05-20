@@ -22,4 +22,5 @@ setInterval(function(){
         speedY = -speedY
     }
     circleX = circleX + speedX
+    circleY = circleY + speedY;
 },10)
