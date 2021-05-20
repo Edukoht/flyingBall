@@ -14,4 +14,5 @@ setInterval(function(){
     c.fill();
     c.beginPath();
     c.arc(circleX, circleY, circleRadius, 0, 2 * Math.PI);
+    c.stroke();
 },10)
