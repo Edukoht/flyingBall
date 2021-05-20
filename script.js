@@ -15,4 +15,7 @@ setInterval(function(){
     c.beginPath();
     c.arc(circleX, circleY, circleRadius, 0, 2 * Math.PI);
     c.stroke();
+    if(circleX + circleRadius > canv.width || circleX - circleRadius < 0){
+        speedX = -speedX 
+    }
 },10)
