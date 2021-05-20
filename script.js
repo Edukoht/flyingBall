@@ -13,4 +13,5 @@ setInterval(function(){
     c.fillStyle = "red";
     c.fill();
     c.beginPath();
+    c.arc(circleX, circleY, circleRadius, 0, 2 * Math.PI);
 },10)
