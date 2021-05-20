@@ -6,3 +6,4 @@ let circleX = 100;
 let circleY = 75;
 let speedX = 15;
 let speedY = 10;
+let circleRadius = 50;
